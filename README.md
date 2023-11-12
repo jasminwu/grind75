@@ -1,6 +1,7 @@
 # Solutions to the Grind 75
 
 **Week 1 Problems**
+
 _Easy_
 - Two Sum
 - Valid Parentheses

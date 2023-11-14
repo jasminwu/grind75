@@ -10,3 +10,15 @@ _Easy_
 - Valid Palindrome
 - Invert Binary Tree
 - Valid Anagram
+
+**Week 2 Problems**
+
+_Easy_
+- Flood Fill
+- LCA of a Binary Search Tree
+- Balanced Binary Tree
+- Linked List Cycle
+- Implement Queue using Stacks
+- First Bad Version
+- Ransom Note
+- Climbing Stairs

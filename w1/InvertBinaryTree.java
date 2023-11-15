@@ -1,6 +1,6 @@
-package invertBinaryTree;
+package w1;
 
-class Solution {
+class InvertBinaryTree {
     public TreeNode invertTree(TreeNode root) {
         if (root == null)
             return root;

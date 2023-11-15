@@ -1,9 +1,9 @@
-package validParentheses;
+
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-class Solution {
+class ValidParentheses {
     public boolean isValid(String s) {
         String open = "({[";
         String close = ")}]";

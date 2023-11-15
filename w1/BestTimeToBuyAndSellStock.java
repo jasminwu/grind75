@@ -1,6 +1,6 @@
-package bestTimeToBuySellStock;
 
-class Solution {
+
+class BestTimeToBuyAndSellStock {
     public int maxProfit(int[] prices) {
         int cheapest = 9876543;
         int answer = 0;

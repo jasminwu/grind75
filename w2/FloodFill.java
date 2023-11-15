@@ -1,6 +1,6 @@
-package w2.floodFill;
+package w2;
 
-class Solution {
+class FloodFill {
     private void helper(int[][] image, int sr, int sc, int newColor, int originalColor) {
         int rows = image.length;
         int cols = image[0].length;

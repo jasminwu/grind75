@@ -1,4 +1,6 @@
-public class Solution {
+package w2;
+
+public class LinkedListCycle {
     public boolean hasCycle(ListNode head) {
         if (head == null || head.next == null) {
             return false;
@@ -8,9 +10,11 @@ public class Solution {
         ListNode slow = head;
 
         while (fast != null && slow != null) {
-            if (fast == slow) return true;
-            if (fast.next == null) return false;
-            
+            if (fast == slow)
+                return true;
+            if (fast.next == null)
+                return false;
+
             fast = fast.next.next;
             slow = slow.next;
         }

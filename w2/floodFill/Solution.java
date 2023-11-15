@@ -5,11 +5,6 @@ class Solution {
         int rows = image.length;
         int cols = image[0].length;
 
-        if (sr < 0 || sr >= rows || sc < 0 || sc >= cols || image[sr][sc] == newColor
-                || image[sr][sc] != originalColor) {
-            return;
-        }
-
         image[sr][sc] = newColor;
 
         if (sr > 0 && image[sr - 1][sc] == originalColor && image[sr - 1][sc] != newColor) {
